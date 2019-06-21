@@ -1,0 +1,26 @@
+test:
+  greeting: "안녕하세요"
+
+---
+
+spring:
+  profiles: stg
+  
+test:
+  greeting: "스테이징 서버에 오신걸 환영합니다."
+
+---
+
+spring:
+  profiles: dev
+  
+test:
+  greeting: "개발 서버에 오신걸 환영합니다!"
+
+---
+
+spring:
+  profiles: local
+  
+test:
+  greeting: "로컬 서버에 오신걸 환영합니다."
